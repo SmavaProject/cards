@@ -9,3 +9,10 @@ class Cards:
 
     def __str__(self):
         return self.card
+
+if __name__ == '__main__':
+    card1 = Cards('egg', 'A1')
+    card2 = Cards('egg', 'A3')
+
+    print(card1==card2)
+    print(card1)
